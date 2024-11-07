@@ -1,0 +1,68 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    {
+      "duration": "https://schema.org/duration",
+      "fullName": "https://schema.org/name",
+      "portfolio": "https://schema.org/portfolio",
+      "evidenceLink": "https://schema.org/evidenceLink",
+      "evidenceDescription": "https://schema.org/evidenceDescription",
+      "credentialType": "https://schema.org/credentialType"
+    },
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "urn:uuid:0499b009-28ef-431a-bc40-7ca9386067e4",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "did:key:z6MknqHg49jBwydLWFkbZWkNiPgpeBpaaxUnJnA2yFRyQScb",
+    "type": [
+      "Profile"
+    ]
+  },
+  "issuanceDate": "2024-11-07T04:45:40.514Z",
+  "expirationDate": "2025-11-07T04:45:40.513Z",
+  "credentialSubject": {
+    "type": [
+      "AchievementSubject"
+    ],
+    "name": "Sally Sanders",
+    "portfolio": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ],
+    "evidenceLink": "https://live.linkedtrust.us/creds/habitat-team.jpg",
+    "evidenceDescription": "I led a team from our company to help build homes with Habitat for Humanity twice a month for 6 months.  Our team was recognized as one of the most reliable on the site, and we contributed to the construction of two homes.  I was responsible for coordinating the volunteers and the work.",
+    "duration": "6 months ",
+    "credentialType": "",
+    "achievement": [
+      {
+        "id": "urn:uuid:7ff5d85e-23f2-46ff-bcc1-9bb4c4264801",
+        "type": [
+          "Achievement"
+        ],
+        "criteria": {
+          "narrative": "Leading a team of volunteers, inspiring and recruiting people to join, and watching out that everyone was included and involved."
+        },
+        "description": "I led a team from our company to help build homes with Habitat for Humanity twice a month for 6 months.  Our team was recognized as one of the most reliable on the site, and we contributed to the construction of two homes.  I was responsible for coordinating the volunteers and the work.",
+        "name": "Leadership",
+        "image": {
+          "id": "https://live.linkedtrust.us/creds/habitat-team.jpg",
+          "type": "Image"
+        }
+      }
+    ]
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2024-11-07T04:45:40Z",
+    "verificationMethod": "did:key:z6MknqHg49jBwydLWFkbZWkNiPgpeBpaaxUnJnA2yFRyQScb#z6MknqHg49jBwydLWFkbZWkNiPgpeBpaaxUnJnA2yFRyQScb",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z3zZvw52hS3ouawWoAbSmCkhSQTXu9FxLkYvdUUJoQJZr4xz3p9gZqj4i8evuGKc4R6dhEv6QFWEjWuHA95itdNRz"
+  }
+}
