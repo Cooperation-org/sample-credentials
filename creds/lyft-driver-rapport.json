@@ -1,0 +1,68 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    {
+      "duration": "https://schema.org/duration",
+      "fullName": "https://schema.org/name",
+      "portfolio": "https://schema.org/portfolio",
+      "evidenceLink": "https://schema.org/evidenceLink",
+      "evidenceDescription": "https://schema.org/evidenceDescription",
+      "credentialType": "https://schema.org/credentialType"
+    },
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "urn:uuid:49940634-77ac-435a-b141-4680dde725c8",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "did:key:z6MksvA3feWi7ckuMJ9HKj4PTgcknDhzm9Uz9Mfn5xWuQwD1",
+    "type": [
+      "Profile"
+    ]
+  },
+  "issuanceDate": "2024-11-07T05:01:43.945Z",
+  "expirationDate": "2025-11-07T05:01:43.945Z",
+  "credentialSubject": {
+    "type": [
+      "AchievementSubject"
+    ],
+    "name": "Dan Driver",
+    "portfolio": [
+      {
+        "name": "rider-ratings",
+        "url": "https://live.linkedtrust.us/creds/lyft-driver-ratings.png"
+      }
+    ],
+    "evidenceLink": "https://live.linkedtrust.us/creds/lyft-driver-ratings.png",
+    "evidenceDescription": "When driving rideshare, much of my income depends on the ability to develop a relationship quickly with the rider, as tip income is a large percentage of my earnings.  Having a relaxed, friendly vibe and quickly finding areas of common interest is a skill I have acquired and enjoy using.  ",
+    "duration": "3 years",
+    "credentialType": "",
+    "achievement": [
+      {
+        "id": "urn:uuid:5d314966-7b48-4797-8d4d-b97dbd3dcdf1",
+        "type": [
+          "Achievement"
+        ],
+        "criteria": {
+          "narrative": "The ability to develop a rapport in a short time and build a positive relationship in a short conversation."
+        },
+        "description": "When driving rideshare, much of my income depends on the ability to develop a relationship quickly with the rider, as tip income is a large percentage of my earnings.  Having a relaxed, friendly vibe and quickly finding areas of common interest is a skill I have acquired and enjoy using.  ",
+        "name": "Customer service and building rapport quickly",
+        "image": {
+          "id": "https://drive.google.com/uc?export=view&id=1C4p1tcKALACP1paBaT5hN_RQH4Rq89wx",
+          "type": "Image"
+        }
+      }
+    ]
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2024-11-07T05:01:43Z",
+    "verificationMethod": "did:key:z6MksvA3feWi7ckuMJ9HKj4PTgcknDhzm9Uz9Mfn5xWuQwD1#z6MksvA3feWi7ckuMJ9HKj4PTgcknDhzm9Uz9Mfn5xWuQwD1",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z3L1RCw1L8hq5i2camPJrrVzGBxDumCpo4A32P18YLGSzYEgGxWZyTQeb7Z3jhrVrkM7xZ947tMdEVT8T2k6y9z4z"
+  }
+}

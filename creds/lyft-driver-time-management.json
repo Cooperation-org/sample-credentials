@@ -1,0 +1,68 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    {
+      "duration": "https://schema.org/duration",
+      "fullName": "https://schema.org/name",
+      "portfolio": "https://schema.org/portfolio",
+      "evidenceLink": "https://schema.org/evidenceLink",
+      "evidenceDescription": "https://schema.org/evidenceDescription",
+      "credentialType": "https://schema.org/credentialType"
+    },
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "urn:uuid:1754ebe4-aa25-46ea-991f-089b14615e28",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "did:key:z6MkrraSawqfAeBnMtmowv1mvtaNbnFyVMHJBcu44dkBnqUo",
+    "type": [
+      "Profile"
+    ]
+  },
+  "issuanceDate": "2024-11-07T04:58:38.641Z",
+  "expirationDate": "2025-11-07T04:58:38.641Z",
+  "credentialSubject": {
+    "type": [
+      "AchievementSubject"
+    ],
+    "name": "Dan Driver",
+    "portfolio": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ],
+    "evidenceLink": "https://live.linkedtrust.us/creds/lyft-platinum.png",
+    "evidenceDescription": "I have been driving Lyft and Uber for over 3 years, and in that time I have had to develop skills for managing my time and planning my working day, having my vehicle in excellent shape and leveraging my knowledge of the area to acquire rides efficiently.  I have achieved Lyft Platinum.",
+    "duration": "3 years",
+    "credentialType": "",
+    "achievement": [
+      {
+        "id": "urn:uuid:0c5304d4-c63a-45f4-9830-f481d79ee373",
+        "type": [
+          "Achievement"
+        ],
+        "criteria": {
+          "narrative": "The ability to manage and plan time effectively, and to achieve goals without supervision."
+        },
+        "description": "I have been driving Lyft and Uber for over 3 years, and in that time I have had to develop skills for managing my time and planning my working day, having my vehicle in excellent shape and leveraging my knowledge of the area to acquire rides efficiently.  I have achieved Diamond level on Lyft.",
+        "name": "Time Management and Working Independently",
+        "image": {
+          "id": "https://live.linkedtrust.us/creds/lyft-platinum.png",
+          "type": "Image"
+        }
+      }
+    ]
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2024-11-07T04:58:38Z",
+    "verificationMethod": "did:key:z6MkrraSawqfAeBnMtmowv1mvtaNbnFyVMHJBcu44dkBnqUo#z6MkrraSawqfAeBnMtmowv1mvtaNbnFyVMHJBcu44dkBnqUo",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z5vBxFBoRHXy97PdZTRm4W2hzFs525hMKiDgWQ54mqjA8fguvrttqbJXfVJjPEdXdzxeKpydtSjU8sA7j1DMFtWWB"
+  }
+}
